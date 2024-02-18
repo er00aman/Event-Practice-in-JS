@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(227, 227, 227);
+}
+.border img{
+    width: 100px!important;
+    height: 135px!important;
+    cursor: pointer;
+}
+.border{
+    width: 104px;
+    border: 2px solid rgb(32, 233, 203)!important;
+}
+.border:hover{
+    border: 2px solid rgb(74, 74, 74) !important;
+}
+.border img:hover{
+    width: 90px !important;
+    height: 125px !important;
+}
+.cen .bigCen{
+    display: flex;
+    justify-content: center;
+} 
